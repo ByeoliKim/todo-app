@@ -18,8 +18,9 @@ module.exports = {
     ],
     rules: {
         'no-new': 0,
-        //"indent": 0,
-        //"no-multi-spaces": 0,
-        //"spaced-comment": 0
+        "indent": 0,
+        "no-multi-spaces": 0,
+        "no-multi-empty-lines": 0,
+        "spaced-comment": 0
     }
 }
