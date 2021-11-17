@@ -26,9 +26,11 @@ export default {
   },
   methods: {
     initDB () {
-      const adapter = new LocalStorage('todo-app')
+      const adapter = new LocalStorage('todo-app')  //DB
       this.db = lowdb(adapter)
 
+      console.log(this.db)
+      //local DB 초기화
       this.db
         .defaults({ todos: []
         })
