@@ -2,8 +2,7 @@
 vue study 🐤
 # sass-loader 설치 시 주의할 점
 <code>npm i -D sass-loader@10</code>
-# .gitignore
-<code>
+# .gitignore<code>
 <h2>기본 디렉터리 혹은 파일</h2>
 .DS_Store
 node_modules
